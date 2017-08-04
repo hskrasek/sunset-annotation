@@ -1,0 +1,13 @@
+{
+    "require": {
+        "illuminate/support": "^5.4",
+        "doctrine/annotations": "^1.5",
+        "phpdocumentor/reflection-docblock": "^3.2",
+        "illuminate/routing": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HSkrasek\\": "src/"
+        }
+    }
+}
