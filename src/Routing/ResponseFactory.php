@@ -10,7 +10,7 @@ class ResponseFactory extends IlluminateResponseFactory implements FactoryContra
     public function json($data = [], $status = 200, array $headers = [], $options = 0)
     {
         $trace      = last(debug_backtrace(
-            DEBUG_BACKTRACE_PROVIDE_OBJECT, 1
+            DEBUG_BACKTRACE_PROVIDE_OBJECT, 2
         ));
         $controller = new \ReflectionClass($trace['class']);
         $method     = $controller->getMethod($trace['function']);
