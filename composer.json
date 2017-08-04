@@ -1,4 +1,5 @@
 {
+    "name": "hskrasek/sunset-annotations",
     "require": {
         "illuminate/support": "^5.4",
         "doctrine/annotations": "^1.5",
